@@ -1,4 +1,8 @@
-# DataApp1 - Análisis Exploratorio de Datos con IA Avanzada
+# 🔍 DataApp1 - Análisis Exploratorio de Datos con IA Avanzada
+
+[![GitHub](https://img.shields.io/badge/GitHub-DataApp1-blue?logo=github)](https://github.com/FERMM2024/DataApp1)
+[![Python](https://img.shields.io/badge/Python-3.8+-green?logo=python)](https://python.org)
+[![Flask](https://img.shields.io/badge/Flask-2.3+-red?logo=flask)](https://flask.palletsprojects.com)
 
 ## Descripción
 Aplicación web profesional que permite cargar archivos CSV y obtener un análisis completo de inteligencia de negocio con visualizaciones avanzadas, insights de IA y generación de reportes PDF. Desarrollada completamente con asistencia de **GitHub Copilot**.
@@ -229,8 +233,31 @@ python -m pytest tests/ --cov=backend --cov-report=html
 - [ ] Autenticación y gestión de usuarios
 - [ ] Deployment con Docker y Kubernetes
 
+## 🌐 Repositorio GitHub
+
+Este proyecto está disponible en GitHub: **https://github.com/FERMM2024/DataApp1**
+
+### Información del Repositorio
+- **URL**: `https://github.com/FERMM2024/DataApp1.git`
+- **Autor**: FERMM2024
+- **Versión**: DataApp1 v2.0
+- **Estado**: Sincronizado y actualizado
+
+### Comandos Git Utilizados
+```bash
+git clone https://github.com/FERMM2024/DataApp1.git
+git remote add origin https://github.com/FERMM2024/DataApp1.git
+git push -u origin main
+```
+
 ## 👨‍💻 Contribución
 Desarrollado completamente con asistencia de **GitHub Copilot** como demostración de las capacidades de IA en desarrollo de software moderno.
+
+---
+
+⭐ **¡Dale una estrella al repositorio si te resulta útil!**
+
+**Desarrollado con ❤️ y GitHub Copilot**
 
 ## 📄 Licencia
 MIT License - Ver archivo LICENSE para detalles.
