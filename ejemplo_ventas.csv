@@ -1,0 +1,16 @@
+fecha,producto,vendedor,cantidad,precio_unitario,total
+2024-01-15,Laptop,Ana García,2,850.50,1701.00
+2024-01-16,Mouse,Carlos López,15,25.99,389.85
+2024-01-16,Teclado,Ana García,8,45.50,364.00
+2024-01-17,Monitor,Luis Martín,3,320.00,960.00
+2024-01-18,Laptop,Carlos López,1,850.50,850.50
+2024-01-19,Mouse,Luis Martín,22,25.99,571.78
+2024-01-20,Auriculares,Ana García,12,89.99,1079.88
+2024-01-21,Teclado,Carlos López,5,45.50,227.50
+2024-01-22,Monitor,Ana García,2,320.00,640.00
+2024-01-23,Laptop,Luis Martín,3,850.50,2551.50
+2024-01-24,Mouse,Ana García,18,25.99,467.82
+2024-01-25,Auriculares,Carlos López,7,89.99,629.93
+2024-01-26,Teclado,Luis Martín,10,45.50,455.00
+2024-01-27,Monitor,Ana García,4,320.00,1280.00
+2024-01-28,Laptop,Carlos López,2,850.50,1701.00

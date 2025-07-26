@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataApp1 - Análisis Exploratorio de Datos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 DataApp1</h1>
+            <p>Análisis Exploratorio de Datos con IA</p>
+        </header>
+
+        <main>
+            <!-- Formulario de carga de archivo -->
+            <section class="upload-section">
+                <h2>📁 Cargar Archivo CSV</h2>
+                <form id="uploadForm" enctype="multipart/form-data">
+                    <div class="file-input-wrapper">
+                        <input type="file" id="csvFile" name="csvFile" accept=".csv" required>
+                        <label for="csvFile" class="file-input-label">
+                            <span class="file-icon">📄</span>
+                            <span class="file-text">Seleccionar archivo CSV</span>
+                        </label>
+                    </div>
+                    <button type="submit" id="analyzeBtn" class="analyze-btn">
+                        <span class="btn-icon">🚀</span>
+                        Ejecutar Análisis
+                    </button>
+                </form>
+            </section>
+
+            <!-- Área de carga -->
+            <div id="loadingArea" class="loading-area hidden">
+                <div class="file-status">
+                    <h3>📄 Archivo Seleccionado</h3>
+                    <p id="selectedFileName" class="selected-file-name"></p>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div id="progressFill" class="progress-fill"></div>
+                    </div>
+                    <div class="progress-text">
+                        <span id="progressPercentage">0%</span>
+                        <span id="progressStatus">Iniciando análisis...</span>
+                    </div>
+                </div>
+                <div class="loading-spinner"></div>
+                <p>Analizando datos... Por favor espere</p>
+            </div>
+
+            <!-- Área de resultados -->
+            <section id="resultsSection" class="results-section hidden">
+                <div class="results-header">
+                    <h2>📊 Resultados del Análisis</h2>
+                    <button id="downloadPdfBtn" class="download-pdf-btn">
+                        <span class="btn-icon">📄</span>
+                        Descargar PDF
+                    </button>
+                </div>
+                
+                <!-- Información básica del dataset -->
+                <div class="result-card">
+                    <h3>📋 Información General del Dataset</h3>
+                    <div id="datasetInfo"></div>
+                </div>
+
+                <!-- Estadísticos básicos -->
+                <div class="result-card">
+                    <h3>📈 Estadísticos Básicos</h3>
+                    <div id="basicStats"></div>
+                </div>
+
+                <!-- Valores nulos -->
+                <div class="result-card">
+                    <h3>🔍 Análisis de Valores Nulos</h3>
+                    <div id="nullValues"></div>
+                </div>
+
+                <!-- Distribución de columnas -->
+                <div class="result-card">
+                    <h3>📋 Distribución de Columnas</h3>
+                    <div id="columnDistribution"></div>
+                </div>
+
+                <!-- Gráficos -->
+                <div class="result-card">
+                    <h3>📊 Visualizaciones</h3>
+                    <div id="visualizations" class="visualizations-grid"></div>
+                </div>
+
+                <!-- Insights generados por IA -->
+                <div class="result-card">
+                    <h3>🤖 Insights Generados por IA</h3>
+                    <div id="aiInsights"></div>
+                </div>
+            </section>
+
+            <!-- Área de errores -->
+            <div id="errorArea" class="error-area hidden">
+                <h3>❌ Error</h3>
+                <p id="errorMessage"></p>
+            </div>
+        </main>
+
+        <footer>
+            <p>Desarrollado con 💙 usando Python, HTML, CSS y IA</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
